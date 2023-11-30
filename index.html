@@ -4,58 +4,123 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Nicolas Parada Quevedo</title>
+    <link
+      rel="shortcut icon"
+      href="ico/Gender_Neutral_User_icon-icons.com_55902.ico"
+    />
     <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Carattere&family=Oregano&display=swap"
+      rel="stylesheet"
+    />
   </head>
   <body>
-    <header>
-      <nav>
-        <ul>
-          <li>Inicio</li>
-          <li><a href="#SobreMi">Sobre Mi</a></li>
-          <li>Proyectos</li>
-          <li>Contáctame</li>
-        </ul>
-      </nav>
-    </header>
-    <article class="tarjeta">
-      <div>
-        <img src="" />
-      </div>
-      <div class="tarjeta_info">
-        <p>¡Hola!, Me llamo:</p>
-        <h1>Nicolas Parada Quevedo</h1>
-        <p>Estudiante</p>
-        <p>Santa Cruz de la Sierra, Bolivia</p>
+    <!-- MENU -->
+    <div class="contenedor">
+      <header>
+        <div class="logo"><a href="#inicio">NPQ</a></div>
+        <nav>
+          <ul>
+            <li><a href="#inicio">Inicio</a></li>
+            <li><a href="#sobremi">Sobre Mi</a></li>
+            <li><a href="#tecnologias">Tecnologías</a></li>
+            <li><a href="proyectos.html">Proyectos</a></li>
+            <li class="contenedor-contactame">
+              <a href="mailto:nicolasparadaq@gmail.com">Contáctame</a>
+            </li>
+          </ul>
+        </nav>
+      </header>
+    </div>
+
+    <!-- TARJETA -->
+    <article class="tarjeta" id="inicio">
+      <div class="tarjeta-banner">
+        <div class="tarjeta-info">
+          <h1><span>N</span>icolas <span>P</span>arada <span>Q.</span></h1>
+          <p>Estudiante de la Universidad de Aquino Bolivia</p>
+        </div>
+        <div class="redes">
+          <a href="https://github.com/NicolasPQ"
+            ><img src="img/GitHub_Logo.png" alt="GitHub_Logo"
+          /></a>
+          <a
+            href="https://www.linkedin.com/in/nicolas-parada-quevedo-227337274/"
+            class="redes-linkedin"
+            ><img src="img/LinkedIn_Logo.png" alt="LinkedIn_Logo"
+          /></a>
+        </div>
       </div>
     </article>
-    <section id="#SobreMi">
-      <h2>Sobre Mí</h2>
-      <p>
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi ullam
-        modi, sequi exercitationem vel non ratione velit aperiam necessitatibus
-        fuga eveniet iusto officiis illum ducimus ex provident voluptates!
-        Saepe, eos?
-      </p>
+
+    <!-- SOBRE MÍ -->
+    <section id="sobremi" class="sobremi">
+      <div class="contenido-sobremi">
+        <h2>Sobre Mí</h2>
+        <p>
+          ¡Hola!, soy <span>Nicolas Parada Q.</span> Soy un estudiante
+          universitario de 4º Semestre de la carrera de Ingeniería de Sistemas
+          en la Universidad de Aquino Bolivia <span>(UDABOL)</span>. Me gusta
+          desarrollarme en todos los ámbitos de la tecnología, soy un fanático
+          del conocimiento que logra cualquier cosa que se proponga con las
+          herramientas a su disposición. Me gusta mantenerme actualizado en las
+          tecnologías, buscar opciones y variaciones a las formas de hacer las
+          cosas de manera tradicional. Entre mis mayores cualidades se
+          encuentran: la perseverancia, la disciplina y el orden. <br />
+          A título personal, me gusta trabajar con herramientas que no dejen
+          espacio a errores, razón por la cual me he decantado por
+          <span>C#</span> como lenguaje principal. <br />
+          Soy una persona curiosa por lo que me gusta "testear" diferentes
+          herramientas, diferentes software y lo qué éstos son capaces de crear.
+          Desde mi punto de vista las tecnologías son un mundo inmenso que aún
+          debo seguir explorando a profundidad.
+        </p>
+        <button>
+          <a href="Currículum de Prueba.pdf" download="Currículum de Prueba.pdf"
+            >Descargar CV</a
+          >
+        </button>
+      </div>
     </section>
-    <section>
-      <h2>Tecnologías</h2>
-      <img src="/img/C_Sharp_Logo.png" alt="C# Logo" width="100" />
-      <img src="/img/Git_Logo.png" alt="Git Logo" width="100" />
-      <img src="/img/HTML5_Logo.png" alt="HTML5 Logo" width="100" />
-      <img src="/img/CSS3_Logo.png" alt="CSS3 Logo" width="100" />
+
+    <!-- TECNOLOGÍAS -->
+    <section class="tecnologias" id="tecnologias">
+      <div class="contenido-tecnologias">
+        <h2>Tecnologías</h2>
+        <div class="contenedor-tecnologias">
+          <div>
+            <a href="https://dotnet.microsoft.com/es-es/languages/csharp"
+              ><img src="img/C_Sharp_Logo.png" alt="C# Logo"
+            /></a>
+            <p>C#</p>
+          </div>
+          <div>
+            <a href="https://git-scm.com/"
+              ><img src="img/Git_Logo.png" alt="Git Logo"
+            /></a>
+            <p>GIT</p>
+          </div>
+          <div>
+            <a href="https://developer.mozilla.org/es/docs/Web/HTML"
+              ><img src="img/HTML5_Logo.png" alt="HTML5 Logo"
+            /></a>
+            <p>HTML5</p>
+          </div>
+          <div>
+            <a href="https://developer.mozilla.org/es/docs/Web/CSS"
+              ><img src="img/CSS3_Logo.png" alt="CSS3 Logo"
+            /></a>
+            <p>CSS3</p>
+          </div>
+        </div>
+      </div>
     </section>
+
+    <!-- PIE DE PÁGINA -->
     <footer>
-      <h3>Redes Sociales</h3>
-      <a href="">
-        <img src="/img/GitHub_Logo.png" alt="GitHub Logo" width="100" />
-      </a>
-      <a href="">
-        <img src="/img/LinkedIn_Logo.png" alt="LinkedIn Logo" width="100" />
-      </a>
-      <a href="">
-        <img src="/img/Gmail_Logo.png" alt="Gmail Logo" width="100" />
-      </a>
-      <p>Todos los Derechos Reservados ©</p>
+      <p>Nicolas Parada Quevedo | Todos los Derechos Reservados ©</p>
     </footer>
   </body>
 </html>
